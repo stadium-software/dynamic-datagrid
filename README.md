@@ -69,7 +69,7 @@ function setDMValues(ob, property, value) {
    2. Select the "ColumnsList" in the Columns input parameter
 6. Populate the *DataGrid* with data that matches the list of columns you defined above as per usual
 
-Columns List Example
+**Columns List Example**
 ```json
 [
     {"name":"ID","headerText":"ID","visible":true},
