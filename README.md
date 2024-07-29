@@ -68,3 +68,19 @@ function setDMValues(ob, property, value) {
    1. Enter the unique classname you assigned to the *DataGrid* above in the "DataGridClass" input parameter (e.g. dynamic-datagrid)
    2. Select the "ColumnsList" in the Columns input parameter
 6. Populate the *DataGrid* with data that matches the list of columns you defined above as per usual
+
+Columns List Example
+```json
+[
+    {"name":"ID","headerText":"ID","visible":true},
+    {"name":"FirstName","headerText":"FirstName","visible":true},
+    {"name":"LastName","headerText":"LastName","visible":true},
+    {"name":"NoOfChildren","headerText":"NoOfChildren","visible":true},
+    {"name":"NoOfPets","headerText":"NoOfPets","visible":true},
+    {"name":"StartDate","headerText":"StartDate","visible":true},
+    {"name":"EndDate","headerText":"EndDate","visible":true},
+    {"name":"Healthy","headerText":"Healthy","visible":true},
+    {"name":"Happy","headerText":"Happy","visible":true},
+    {"name":"Subscription","headerText":"Subscription","visible":true}
+]
+```
