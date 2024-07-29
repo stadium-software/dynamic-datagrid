@@ -2,6 +2,8 @@
 
 Sometimes you may not know what columns a DataGrid will have at design time. This repo allows for the definition of DataGrid columns at runtime. 
 
+https://github.com/user-attachments/assets/699ffe54-bb44-4434-a697-8d834de708d2
+
 # Version 
 Initial 1.0
 
