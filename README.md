@@ -54,7 +54,7 @@ function setDMValues(ob, property, value) {
 ## Page Setup
 1. Drag a *DataGrid* Control to the page
 2. Add a unique classname of your choice to the *DataGrid* classes property (e.g. dynamic-datagrid)
-3. The designer will show an error unless you define dummy column for your *DataGrid* in the *DataGrid* columns property. You can define a dummy column here which will be replaced at runtime. 
+3. The designer will show an error unless you define a column for your *DataGrid* in the *DataGrid* columns property. You can define a dummy column here which will be replaced at runtime. 
 
 ## Event Handler Setup
 1. Drag a *List* to any event handler script and call it "ColumnsList"
