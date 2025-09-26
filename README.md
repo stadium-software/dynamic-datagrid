@@ -2,7 +2,7 @@
 
 Sometimes you may not know what columns a DataGrid will have at design time. This repo allows for the definition of DataGrid columns at runtime. 
 
-https://github.com/user-attachments/assets/699ffe54-bb44-4434-a697-8d834de708d2
+![](images/view.gif)
 
 # Version 
 1.1 Made most properties optional; improved and modernised the script
@@ -109,17 +109,17 @@ The type can create one nested type manually or use the import option to generat
 ```json
 [
     {
-        "name": "Column1",
-        "headerText": "Column1",
-        "visible": "true",
-        "cellAlignment": "right",
+        "name": "CategoryName",
+        "visible": false
+    },{
+        "name": "ProductName",
+        "headerText": "Product Name",
         "cellDisplay": "ellipsis"
-    },
-    {
-        "name": "Column2",
-        "headerText": "Column2",
-        "visible": "true",
-        "classes": "bg-red"
+    },{
+        "name": "ProductSales",
+        "headerText": "Product Sales",
+        "cellAlignment": "right",
+        "classes":"lightblue"
     }
 ]
 ```
