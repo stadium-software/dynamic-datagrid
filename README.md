@@ -105,6 +105,8 @@ The type can create one nested type manually or use the import option to generat
    2. Select the "ColumnsList" in the Columns input parameter
 6. Populate the *DataGrid* with data that matches the list of columns you defined
 
+![](images/event-handler.png)
+
 **Columns List Example**
 ```json
 [
